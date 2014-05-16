@@ -1,0 +1,263 @@
+{
+    "request": {
+        "type": "json",
+        "url": "http://animemap.net/time/table/saitama/",
+        "updated": "2014-02-15 01:36:53"
+    },
+    "response": {
+        "item": [
+            {
+                "title": "弱虫ペダル",
+                "url": "http://animemap.net/time/title/1821/",
+                "time": "25:35",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "20話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "月曜日"
+            },
+            {
+                "title": "ディーふらぐ！",
+                "url": "http://animemap.net/time/title/1846/",
+                "time": "26:05",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "月曜日"
+            },
+            {
+                "title": "うーさーのその日暮らし 覚醒編",
+                "url": "http://animemap.net/time/title/1847/",
+                "time": "25:35",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "火曜日"
+            },
+            {
+                "title": "ハマトラ",
+                "url": "http://animemap.net/time/title/1848/",
+                "time": "25:40",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "火曜日"
+            },
+            {
+                "title": "銀の匙 第2期",
+                "url": "http://animemap.net/time/title/1852/",
+                "time": "24:50",
+                "station": "フジテレビ",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "ストレンジプラス",
+                "url": "http://animemap.net/time/title/1853/",
+                "time": "25:00",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "マケン姫っ！通",
+                "url": "http://animemap.net/time/title/1866/",
+                "time": "25:05",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "6話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "魔法戦争",
+                "url": "http://animemap.net/time/title/1855/",
+                "time": "25:28",
+                "station": "TBS",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "Z-X IGNITION(ゼクスイグニッション)",
+                "url": "http://animemap.net/time/title/1858/",
+                "time": "25:50",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "桜Trick",
+                "url": "http://animemap.net/time/title/1857/",
+                "time": "25:58",
+                "station": "TBS",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "木曜日"
+            },
+            {
+                "title": "Wake Up Girls!",
+                "url": "http://animemap.net/time/title/1861/",
+                "time": "25:23",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "6話",
+                "episode": "?",
+                "cable": "0",
+                "today": "1",
+                "week": "金曜日"
+            },
+            {
+                "title": "鬼灯の冷徹",
+                "url": "http://animemap.net/time/title/1856/",
+                "time": "25:55",
+                "station": "TBS",
+                "state": "onair",
+                "next": "6話",
+                "episode": "?",
+                "cable": "0",
+                "today": "1",
+                "week": "金曜日"
+            },
+            {
+                "title": "フューチャーカード バディファイト",
+                "url": "http://animemap.net/time/title/1832/",
+                "time": "08:00",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "土曜日"
+            },
+            {
+                "title": "ニセコイ",
+                "url": "http://animemap.net/time/title/1862/",
+                "time": "24:30",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "6話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "土曜日"
+            },
+            {
+                "title": "マギ The kingdom of magic 2期",
+                "url": "http://animemap.net/time/title/1830/",
+                "time": "17:00",
+                "station": "TBS",
+                "state": "onair",
+                "next": "20話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "ゴールデンタイム",
+                "url": "http://animemap.net/time/title/1803/",
+                "time": "23:30",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "19話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "生徒会役員共＊",
+                "url": "http://animemap.net/time/title/1833/",
+                "time": "24:00",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "いなり、こんこん、恋いろは",
+                "url": "http://animemap.net/time/title/1865/",
+                "time": "24:30",
+                "station": "テレビ埼玉",
+                "state": "onair",
+                "next": "5話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "ノブナガ・ザ・フール",
+                "url": "http://animemap.net/time/title/1842/",
+                "time": "25:05",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "となりの関くん",
+                "url": "http://animemap.net/time/title/1843/",
+                "time": "26:05",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            },
+            {
+                "title": "咲-Saki- 全国編",
+                "url": "http://animemap.net/time/title/1841/",
+                "time": "26:35",
+                "station": "テレビ東京",
+                "state": "onair",
+                "next": "7話",
+                "episode": "?",
+                "cable": "0",
+                "today": "0",
+                "week": "日曜日"
+            }
+        ]
+    }
+}

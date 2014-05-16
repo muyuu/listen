@@ -1,0 +1,66 @@
+extend /_layout
+
+block content
+  .container
+    .innerblock(ng-controller="listCtrl")
+
+      .length
+        form(ng-submit="submit()")
+          .input キーワードで絞り込み
+            input#search(type="text",ng-model="query",name="keywords",placeholder="search words",autofocus)
+            input#submit(type="submit",value="Search!")
+      .tag-list
+        //- p: pre: code {{apis.results|json}}
+        ul
+          li(ng-repeat="api in apis.results")
+            .row.info
+              .jacket.col5
+                img(src="{{api.artworkUrl100}}")
+              .col7
+                .artist
+                  i.fa.fa-user
+                  a(href="{{api.artistViewUrl}}") {{api.artistName}}
+                .song
+                  i.fa.fa-music
+                  a(href="{{api.trackViewUrl}}") {{api.trackName}}
+                .buy
+                  i.fa.fa-apple
+                  a(href="{{api.trackViewUrl}}") iTunesで見る
+            .listen
+              audio(controls, ng-src="{{trustSrc(api.previewUrl)}}")
+        //-   li
+        //-     a(href="#")
+        //-       table
+        //-         tr
+        //-           th イベント名
+        //-           td イベント名が入ります
+        //-         tr
+        //-           th 日付
+        //-           td 2014/02/15
+        //-         tr
+        //-           th 会場
+        //-           td 知らん
+        //-         tr
+        //-           th キャッチ
+        //-           td キャッチコピーが入るよ
+        //-         tr
+        //-           th 概要
+        //-           td 概要テキストだよー
+        //-   li
+        //-     a(href="#")
+        //-       table
+        //-         tr
+        //-           th イベント名
+        //-           td イベント名が入ります
+        //-         tr
+        //-           th 日付
+        //-           td 2014/02/15
+        //-         tr
+        //-           th 会場
+        //-           td 知らん
+        //-         tr
+        //-           th キャッチ
+        //-           td キャッチコピーが入るよ
+        //-         tr
+        //-           th 概要
+        //-           td 概要テキストだよー

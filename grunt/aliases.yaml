@@ -1,0 +1,21 @@
+default:
+  - 'connect'
+  - 'esteWatch'
+
+init:
+  - 'bower:install'
+
+build:
+  - "sass:compile"
+  - "notify:sass"
+
+distcheck:
+  - 'useminPrepare'
+
+dist:
+  - "useminPrepare"
+  - "concat"
+  - "uglify"
+  - "usemin"
+  - "sass:build"
+  - "clean"

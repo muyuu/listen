@@ -1,0 +1,34 @@
+doctype html
+html.no-js(lang="ja", ng-app="listen")
+  head
+    meta(charset='UTF-8')
+    meta(name="viewport",content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no")
+    title Event list Viewew
+    link(rel="stylesheet",href="/assets/libs/font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet",href="/assets/css/style.css")
+
+    | <!--[if lt IE 9]>
+    | <script src="/libs/es5-shim/es5-shim.js"></script>
+    | <script src="/libs/json3/json3.min.js"></script>
+    | <![endif]-->
+  body
+    header.pageHeader
+      h1 iTunes Music Store
+      p iTunes Music Store の検索&amp;視聴
+    block content
+
+    footer.pageFooter
+      p.copyright Created by <a href="http://anticyb.org/" target="_blank">muyuu</a>
+
+    // build:js /assets/js/vendors.min.js
+    script(src="/assets/libs/jquery/jquery.js")
+    script(src="/assets/libs/angular/angular.js")
+    script(src="/assets/libs/angular-cookies/angular-cookies.js")
+    script(src="/assets/libs/angular-resource/angular-resource.js")
+    script(src="/assets/libs/angular-route/angular-route.js")
+    script(src="/assets/libs/angular-sanitize/angular-sanitize.js")
+    // endbuild
+    // build:js /assets/js/app.min.js
+    script(src="/assets/js/app.js")
+    //- script(src="/assets/js/controller/top.js")
+    // endbuild
