@@ -15,17 +15,17 @@ block content
           li(ng-repeat="api in apis.results")
             .row.info
               .jacket.col5
-                img(src="{{api.artworkUrl100}}")
+                img(ng-src="{{api.artworkUrl100}}")
               .col7
                 .artist
                   i.fa.fa-user
-                  a(href="{{api.artistViewUrl}}") {{api.artistName}}
+                  a(ng-href="{{api.artistViewUrl}}") {{api.artistName}}
                 .song
                   i.fa.fa-music
-                  a(href="{{api.trackViewUrl}}") {{api.trackName}}
+                  a(ng-href="{{api.trackViewUrl}}") {{api.trackName}}
                 .buy
                   i.fa.fa-apple
-                  a(href="{{api.trackViewUrl}}") iTunesで見る
+                  a(ng-href="{{api.trackViewUrl}}") iTunesで見る
             .listen
               audio(controls, ng-src="{{trustSrc(api.previewUrl)}}")
         //-   li
