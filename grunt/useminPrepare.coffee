@@ -1,4 +1,4 @@
 module.exports = (grunt) ->
-  html: 'public/**/*.html'
+  html: 'docs/**/*.html'
   options:
-    dest: './public/'
+    dest: './docs/'

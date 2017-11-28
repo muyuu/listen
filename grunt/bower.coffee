@@ -1,7 +1,7 @@
 module.exports = (grunt) ->
   install:
     options:
-      targetDir: 'public/assets/libs'
+      targetDir: 'docs/assets/libs'
       layout: 'byComponent'
       install: true
       verbose: false
